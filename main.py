@@ -1,4 +1,4 @@
-from playsound import playsound
+import playsound as ps
 import random
 from time import sleep
 
@@ -6,6 +6,6 @@ from time import sleep
 
 while True:
     rand_time = random.randint(300, 3600)
-#    sleep(rand_time)
+    sleep(rand_time)
 
-    playsound('baby.mp3')
+    ps.playsound('baby.mp3')
